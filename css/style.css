@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+}
+/*header start*/
+header{
+    padding: 50px 0;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 60%;
+    float: right;
+    overflow: hidden;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    color: #A8A8A8;
+    font-weight: 300;
+    padding: 2px 45px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
+/*.menu ul li:last-child a{
+    padding-right:0; 
+    text-align: center;
+}*/
+.menu ul li a:hover {
+    color: #4D555A;
+    
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.banner img{
+    width: 100%;
+    margin-bottom:50px;
+}
+/*banner end*/
+/*weekend start*/
+.wrapper2{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.weekend{}
+.weekend span{
+    color: #A8A8A8;
+    font-size: 16px;
+}
+.weekend h1{
+    color: #626262;
+    margin: 20px 0;
+}
+.weekend p{
+    color: #4D555A;
+    font-size: 16px;
+}
+.weekend input{
+    text-transform: uppercase;
+    border: none;
+    margin-top: 50px;
+    font-size: 15px;
+    padding: 4px;
+
+}
+/*weekend end*/
+/*events start*/
+.projects{
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.event{
+    margin-top: 60px;
+    overflow: hidden;
+    width: 45%;
+    float:left;
+}
+.event img{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.event span{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #4D555A;
+}
+.event h1{
+    color: #626262;
+    margin: 20px 0;
+}
+.event p{
+    font-size: 16px;
+    color: #4D555A;
+}
+.event:nth-child(even) {
+    margin-left: 6%;
+}
+/*events end*/
+/*text start*/
+.bg{
+    background-color: #F0F0F0;
+    overflow: hidden;
+}
+.wrapper3{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 35%;
+    text-align: center;
+    padding: 50px 0;
+}
+.inbox{}
+.inbox a img{
+    margin-top: 90px;
+    margin-right: 35px;
+}
+.input_form{
+    width: 70%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 18px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 60px;
+    padding: 5px 2px;
+    overflow: hidden;
+}
+/*text end*/
+/*second events start*/
+.last_event{
+    margin:100px 0;
+}
+/*second events end*/
+.button2{
+    width: 15%;
+    text-align: center;
+    margin: 0 auto;
+}
+.button2 button{  
+    margin-top: 150px;
+    padding: 20px 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 2px solid;
+    cursor: pointer;
+    font-weight: 700;
+    transition: .5s;
+}
+.button2 button:hover {
+    color: #fafafa;
+    background-color: #626262;
+    font-weight: 400;
+}
+/*footer start*/
+footer{
+    background-color: #f0f0f0;
+    padding: 50px 0;
+
+}
+.left_content{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+}
+.left_content ul {
+    overflow: hidden;
+
+}
+.left_content ul li{
+    float: left;
+    list-style: none;
+}
+.left_content ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0 10px;
+    transition: .3s;
+}
+.left_content ul li a:hover {
+    color:#5F9BCE;
+}
+.right_content{
+    float: right;
+    width: 30%;
+    overflow: hidden;
+}
+.right_content ul{
+    float: right;
+    overflow: hidden;
+}
+.right_content ul li{
+    float: left;
+    list-style: none;
+}
+.right_content ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 20px;
+    transition: .3s;
+}
+.right_content ul li a:hover {
+    color: #5F9BCE;
+}
+/*footer end*/
